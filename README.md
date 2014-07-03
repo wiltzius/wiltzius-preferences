@@ -2,6 +2,8 @@
 
 Instructions:
 
+Check out to somewhere like '~/wiltzius-preferences', then:
+
 ### vim
 put 'source ~/wiltzius-preferences/vimrc.vim' in ~/.vimrc
 
