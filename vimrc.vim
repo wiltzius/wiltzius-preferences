@@ -10,7 +10,6 @@ set backspace=2
 " Syntax
 filetype on
 filetype plugin on
-filetype plugin indent on
 syntax enable       " 'enable' keeps color settings while 'on' overwrites them
 match ErrorMsg '\s\+$'  " show trailing whitespace as a syntax error
 set showmatch       " show matching brackets
@@ -25,6 +24,8 @@ set wildmode=longest:list,full
 set number
 
 " Indentation
+filetype indent off " Disable filetype-based indentation rules so VIM doesn't overwrite what's below
+filetype plugin indent off
 set autoindent
 set expandtab
 set tabstop=2
