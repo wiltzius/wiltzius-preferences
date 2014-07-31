@@ -40,4 +40,4 @@ set hlsearch        " highlight all search matches (only after search is execute
 " Misc HUD features
 set showcmd         " Display helpful command/selection info
 set ruler           " Display cursor position within document and line
-
+set laststatus=2    " Always show the status line with filename
