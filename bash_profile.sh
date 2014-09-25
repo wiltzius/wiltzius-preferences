@@ -6,3 +6,5 @@ export PATH=~/Documents/chromium/depot_tools/:$PATH
 alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --enable-impl-side-painting --enable-skia-benchmarking &'
 
 bind -f ~/wiltzius-preferences/inputrc.sh
+
+alias cowville='ssh -p 23 tom@cowville.net'
