@@ -5,10 +5,14 @@ Instructions:
 Check out to somewhere like '~/wiltzius-preferences', then:
 
 ### vim
-put 'source ~/wiltzius-preferences/vimrc.vim' in ~/.vimrc
+put in ~/.vimrc:
+
+`source ~/wiltzius-preferences/vimrc.vim`
 
 ### bash
-put 'source ~/wiltzius-preferences/bash_profile.sh' in ~/.bash_profile
+put in ~/.bash_profile:
+
+`source ~/wiltzius-preferences/bash_profile.sh`
 
 ### inputrc
 bash_profile already rebinds the inputrc file by calling 'bind -f'
