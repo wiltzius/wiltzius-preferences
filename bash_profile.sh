@@ -5,6 +5,7 @@ export PATH=~/Documents/sdk/platform-tools/:$PATH
 export PATH=~/Documents/chromium/depot_tools/:$PATH
 export CLICOLOR=1
 export GREP_OPTIONS='--color=auto'    # Tell grep to highlight matches
+export EDITOR=vim
 
 # Bind key events from file
 bind -f ~/wiltzius-preferences/inputrc.sh
