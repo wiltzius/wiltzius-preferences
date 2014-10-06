@@ -1,8 +1,7 @@
 # Tom Wiltzius bash aliases
 
 # Environment variables
-export PATH=~/Documents/sdk/platform-tools/:$PATH
-export PATH=~/Documents/chromium/depot_tools/:$PATH
+$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export CLICOLOR=1
 export GREP_OPTIONS='--color=auto'    # Tell grep to highlight matches
 export EDITOR=vim
