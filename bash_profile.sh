@@ -1,7 +1,7 @@
 # Tom Wiltzius bash aliases
 
 # Environment variables
-$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+#$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export CLICOLOR=1
 export GREP_OPTIONS='--color=auto'    # Tell grep to highlight matches
 export EDITOR=vim
