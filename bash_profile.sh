@@ -1,5 +1,13 @@
 # Tom Wiltzius bash aliases
 
+# Mac-specific stuff
+unamestr=`uname`
+if [[ "$uname"=='Darwin' ]]; then
+  # bash auto-completion scripts from homebrew
+  if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+  fi
+fi
 # Environment variables
 #$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export CLICOLOR=1
