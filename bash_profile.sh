@@ -13,6 +13,28 @@ fi
 export CLICOLOR=1
 export GREP_OPTIONS='--color=auto'    # Tell grep to highlight matches
 export EDITOR=vim
+export LESS=-Ri
+
+# Bash / Git completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+# Welkin stuff
+alias pgrestart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log restart'
+
+# WANS
+function tabname {
+ printf "\e]1;$1\a"
+}
+
+function winname {
+ printf "\e]2;$1\a"
+}
+
+alias koala="tabname 'koala'; ~/Documents/welkin/start_server.sh -r -t --app koala"
+alias dugong="tabname 'dugong'; ~/Documents/welkin/start_server.sh -r -t --app dugong"
+alias shortfin="tabname 'shortfin'; ~/Documents/welkin/start_server.sh -r -t --app shortfin"
 
 # Welkin-related env variables
 export CONFIG='dev.ini'
