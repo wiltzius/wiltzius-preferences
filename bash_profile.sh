@@ -22,6 +22,7 @@ fi
 
 # Welkin stuff
 alias pgrestart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log restart'
+export PYRAMID_RELOAD_TEMPLATES=1
 
 # WANS
 function tabname {
