@@ -14,6 +14,11 @@ put in ~/.bash_profile:
 
 `source ~/wiltzius-preferences/bash_profile.sh`
 
+### zsh
+install oh-my-zsh, then put in ~/.zshrc:
+
+`source ~/wiltzius-preferences/zshrc`
+
 ### inputrc
 bash_profile already rebinds the inputrc file by calling 'bind -f'
 
