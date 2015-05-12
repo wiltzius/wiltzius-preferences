@@ -51,6 +51,7 @@ alias enter_welkin_env='cd $WELKIN_ROOT; envactivate'
 alias cowville='ssh -p 23 tom@cowville.net'
 alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --enable-impl-side-painting --enable-skia-benchmarking &'
 alias ll='ls -aGlh'
+alias lsps='ps aux | grep'
 
 # Set prompt
 #source ~/wiltzius-preferences/git-prompt.sh       # Load in the git branch prompt script.

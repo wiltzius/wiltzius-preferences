@@ -80,3 +80,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/wiltzius-preferences/bash_profile.sh
 cd ~/Documents/welkin
+
+# don't like shared history
+setopt no_share_history
