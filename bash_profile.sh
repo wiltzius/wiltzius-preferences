@@ -18,6 +18,7 @@ alias envactivate='source $WELKIN_VIRTUALENV_PATH/bin/activate'
 alias enter_welkin_env='cd $WELKIN_ROOT; envactivate'
 alias welkin=$WELKIN_ROOT/welkin
 envactivate
+ssh-add ~/.ssh/welkin-new-servers.pem &> /dev/null
 
 # Bind key events from file
 #bind -f ~/wiltzius-preferences/inputrc.sh
@@ -27,3 +28,4 @@ alias cowville='ssh -p 23 tom@cowville.net'
 alias ll='ls -aGlh'
 alias lsps='ps aux | grep'
 
+ulimit -n 10000
