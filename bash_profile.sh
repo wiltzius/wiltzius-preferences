@@ -6,8 +6,13 @@ export GREP_OPTIONS='--color=auto'    # Tell grep to highlight matches
 export EDITOR=vim
 export LESS=-Ri
 
-# Welkin stuff
+# DB stuff
 alias pgrestart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log restart'
+
+# BTP stuff
+alias btp_env_enter='cd ~/Documents/btp-lemur && source venv/bin/activate'
+
+# Welkin stuff
 export PYRAMID_RELOAD_TEMPLATES=1
 
 # Welkin-related env variables
@@ -29,3 +34,7 @@ alias ll='ls -aGlh'
 alias lsps='ps aux | grep'
 
 ulimit -n 10000
+
+# paths
+export PATH="/usr/local/sbin:$PATH"
+
