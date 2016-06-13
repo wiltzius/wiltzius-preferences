@@ -21,7 +21,7 @@ export WELKIN_ROOT=$HOME/Documents/welkin
 export WELKIN_VIRTUALENV_PATH=$HOME/Documents/ENV
 alias envactivate='source $WELKIN_VIRTUALENV_PATH/bin/activate'
 alias enter_welkin_env='cd $WELKIN_ROOT; envactivate'
-alias welkin=$WELKIN_ROOT/welkin
+alias w=$WELKIN_ROOT/welkin
 envactivate
 ssh-add ~/.ssh/welkin-new-servers.pem &> /dev/null
 
