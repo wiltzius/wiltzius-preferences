@@ -21,7 +21,7 @@ export WELKIN_ROOT=$HOME/Documents/welkin
 export WELKIN_VIRTUALENV_PATH=$HOME/Documents/ENV
 alias envactivate='source $WELKIN_VIRTUALENV_PATH/bin/activate'
 alias enter_welkin_env='cd $WELKIN_ROOT; envactivate'
-alias w=$WELKIN_ROOT/welkin
+alias w=welkin
 envactivate
 ssh-add ~/.ssh/welkin-new-servers.pem &> /dev/null
 
@@ -37,4 +37,7 @@ ulimit -n 10000
 
 # paths
 export PATH="/usr/local/sbin:$PATH"
+
+# utils
+alias ramdisk='diskutil erasevolume HFS+ "Ramdisk" `hdiutil attach -nomount ram://7812500 `'
 
