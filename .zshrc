@@ -78,7 +78,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/wiltzius-preferences/bash_profile.sh
+source ~/.bash_profile
 cd ~/Documents/welkin
 
 # don't like shared history
