@@ -18,7 +18,7 @@ export PYRAMID_RELOAD_TEMPLATES=1
 # Welkin-related env variables
 export CONFIG='dev.ini'
 export WELKIN_ROOT=$HOME/Documents/welkin
-export WELKIN_VIRTUALENV_PATH=$HOME/Documents/ENV
+export WELKIN_VIRTUALENV_PATH=$HOME/Documents/welkin/ENV
 alias envactivate='source $WELKIN_VIRTUALENV_PATH/bin/activate'
 alias enter_welkin_env='cd $WELKIN_ROOT; envactivate'
 alias w=welkin
