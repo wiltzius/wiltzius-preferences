@@ -1,0 +1,14 @@
+[credential]
+	helper = osxkeychain
+
+[user]
+  name = Tom Wiltzius
+  email = tom.wiltzius@gmail.com
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+
+[push]
+  default = simple
+
