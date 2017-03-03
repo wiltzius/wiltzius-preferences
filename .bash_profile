@@ -37,6 +37,7 @@ ulimit -n 10000
 
 # paths
 export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
 
 # utils
 alias ramdisk='diskutil erasevolume HFS+ "Ramdisk" `hdiutil attach -nomount ram://7812500 `'
