@@ -85,4 +85,4 @@ cd ~/Documents/welkin
 setopt no_share_history
 
 # fancy git
-eval "$(hub alias -s)"
+# eval "$(hub alias -s)"
