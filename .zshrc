@@ -86,3 +86,5 @@ setopt no_share_history
 
 # fancy git
 # eval "$(hub alias -s)"
+
+export PATH="$HOME/.yarn/bin:$PATH"

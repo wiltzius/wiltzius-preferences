@@ -16,6 +16,7 @@ alias btp_env_enter='cd ~/Documents/btp-lemur && source venv/bin/activate'
 export PYRAMID_RELOAD_TEMPLATES=1
 
 # Welkin-related env variables
+alias staged='git shortlog `deploy current-hash prod`..HEAD'
 export CONFIG='dev.ini'
 export WELKIN_ROOT=$HOME/Documents/welkin
 export WELKIN_VIRTUALENV_PATH=$HOME/Documents/ENV
