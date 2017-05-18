@@ -88,3 +88,4 @@ setopt no_share_history
 # eval "$(hub alias -s)"
 
 export PATH="$HOME/.yarn/bin:$PATH"
+bindkey "^X\x7f" backward-kill-line
