@@ -10,7 +10,7 @@ export LESS=-Ri
 alias pgrestart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log restart'
 
 # BTP stuff
-alias btp_env_enter='cd ~/Documents/btp-lemur && source venv/bin/activate'
+alias btp_env_enter='cd ~/Documents/btp-lemur && source BTPENV/bin/activate'
 
 # Welkin stuff
 export PYRAMID_RELOAD_TEMPLATES=1
