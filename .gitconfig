@@ -12,3 +12,5 @@
 [push]
   default = current
 
+[diff]
+  renameLimit = 5000

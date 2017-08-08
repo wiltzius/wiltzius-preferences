@@ -23,7 +23,8 @@ export WELKIN_VIRTUALENV_PATH=$HOME/Documents/ENV
 alias envactivate='source $WELKIN_VIRTUALENV_PATH/bin/activate'
 alias enter_welkin_env='cd $WELKIN_ROOT; envactivate'
 alias w=welkin
-envactivate
+enter_welkin_env
+#btp_env_enter
 ssh-add ~/.ssh/welkin-new-servers.pem &> /dev/null
 function rmssh { sed -i ".bak" "$1d" ~/.ssh/known_hosts; }
 export -f rmssh &>/dev/null
@@ -40,7 +41,7 @@ ulimit -n 10000
 
 # paths
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
+#export PATH="$HOME/.yarn/bin:$PATH"
 
 # utils
 alias ramdisk='diskutil erasevolume HFS+ "Ramdisk" `hdiutil attach -nomount ram://7812500 `'

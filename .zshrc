@@ -79,7 +79,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.bash_profile
-cd ~/Documents/welkin
+#cd ~/Documents/welkin
 
 # don't like shared history
 setopt no_share_history
