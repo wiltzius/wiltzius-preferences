@@ -41,7 +41,10 @@ ulimit -n 10000
 
 # paths
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/Users/tom/Library/Android/sdk/platform-tools:$PATH"
+export PATH="/Users/tom/Library/Android/sdk/tools:$PATH"
 #export PATH="$HOME/.yarn/bin:$PATH"
 
 # utils
 alias ramdisk='diskutil erasevolume HFS+ "Ramdisk" `hdiutil attach -nomount ram://7812500 `'
+
