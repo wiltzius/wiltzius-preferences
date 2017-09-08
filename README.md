@@ -26,3 +26,7 @@ bash_profile already rebinds the inputrc file by calling 'bind -f'
 In iterm > Preferences select "load preferences from a custom URL or folder" and point it at ~/wiltzius-preferences/iterm
 
 This must be manually re-saved on iterm preferences edits.
+
+### pycharm
+
+Settings JAR file in this folder, import it in PyCharm
