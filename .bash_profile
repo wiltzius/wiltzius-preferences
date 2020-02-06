@@ -19,7 +19,9 @@ export PYRAMID_RELOAD_TEMPLATES=1
 alias staged='git shortlog `deploy current-hash prod`..HEAD'
 export CONFIG='dev.ini'
 export WELKIN_ROOT=$HOME/Documents/welkin
+#export WELKIN_VIRTUALENV_PATH=$HOME/Documents/WELKIN3
 export WELKIN_VIRTUALENV_PATH=$HOME/Documents/ENV
+#export WELKIN_VIRTUALENV_PATH=$HOME/Documents/WELK3
 alias envactivate='source $WELKIN_VIRTUALENV_PATH/bin/activate'
 alias enter_welkin_env='cd $WELKIN_ROOT; envactivate'
 alias w=welkin
@@ -47,4 +49,13 @@ export PATH="/Users/tom/Library/Android/sdk/tools:$PATH"
 
 # utils
 alias ramdisk='diskutil erasevolume HFS+ "Ramdisk" `hdiutil attach -nomount ram://7812500 `'
+alias gitrecent='~/wiltzius-preferences/gitrecent.sh'
+alias killuwsgi='pgrep uwsgi | xargs kill -9'
 
+export PATH="$HOME/.cargo/bin:$PATH"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NODE_OPTIONS=--max-old-space-size=4096
