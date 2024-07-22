@@ -1,21 +1,21 @@
 # stripe zsh compat lines https://confluence.corp.stripe.com/display/IT/How+to+Setup+Zsh+@+Stripe
 
-autoload -Uz compinit; compinit
-autoload -Uz bashcompinit; bashcompinit
-source ~/.bash_profile
-source ~/.bashrc
-eval "$(nodenv init -)"
+#autoload -Uz compinit; compinit
+#autoload -Uz bashcompinit; bashcompinit
+#source ~/.bash_profile
+#source ~/.bashrc
+#eval "$(nodenv init -)"
 
 # use the 'pure' prompt https://github.com/sindresorhus/pure
 # requires install in $HOME/.zsh/pure
-fpath+=$HOME/.zsh/pure
-autoload -U promptinit; promptinit
-prompt pure
+# fpath+=$HOME/.zsh/pure
+# autoload -U promptinit; promptinit
+# prompt pure
 
 # don't like shared history
 setopt no_share_history
 
-# bind option + left arrow / right arrow to forward / backward word 
+# bind option + left arrow / right arrow to forward / backward word
 # https://coderwall.com/p/a8uxma/zsh-iterm2-osx-shortcuts
 bindkey "[D" backward-word
 bindkey "[C" forward-word
